@@ -3,7 +3,6 @@
 
 
 stars = int(input("Enter a number: "))
-i = 1
-while i <= stars:
-    i +=1
-print("*", i)
+
+for i in range (1, stars + 1):
+    print("x" * i)
