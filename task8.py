@@ -11,7 +11,8 @@ else:
  
     if points <1:
         print("Your demerit point: 1")
-    if points <12:
-        print(f"Demerit points: {points}")
     else:
-        print(f"Licence suspended after attaining {points}")
+        if points <12:
+            print(f"Demerit points: {points}")
+        else:
+            print(f"Licence suspended after attaining {points}")
