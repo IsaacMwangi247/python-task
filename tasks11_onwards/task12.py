@@ -4,4 +4,6 @@ value_2 = input("Enter 2nd value: ")
 value_3 = input("Enter 3rd value: ")
 value_4 = input("Enter 4th value: ")
 list= [value_1, value_2, value_3, value_4]
-print(list)
+
+largest = sorted(list)[-1]
+print(largest)
