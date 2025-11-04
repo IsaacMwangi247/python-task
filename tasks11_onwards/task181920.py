@@ -62,5 +62,5 @@ print(f"NHIF Rate: {nhif}")
 # convert the nhif string to an integer
 new_nhif = int(nhif)
 taxable_income = gross_salary - (nssf_rate + NHDF + new_nhif)
-print(taxable_income)
+print(f"Your taxable income is: {taxable_income}")
 
