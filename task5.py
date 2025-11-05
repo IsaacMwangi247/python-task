@@ -9,11 +9,11 @@
 
 
 def user_inputs(x,y,z):
-    return(x,y,z)[-1]
+    return(x,y,z)
 
 x = int(input("First input: "))
 y = int(input("Second input: "))
 z = int(input("Third input: "))
 
-largest = user_inputs(x,y,z)
+largest = sorted(user_inputs(x,y,z))[-1]
 print(largest)
