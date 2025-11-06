@@ -13,4 +13,5 @@ h = float(input("Enter height: "))
 
 area = triangle_area(b,h)
 print(area)
+triangle_area(b,h)
 

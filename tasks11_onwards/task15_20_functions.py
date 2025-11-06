@@ -2,12 +2,12 @@
 # adds them to find the gross salary 
 # then uses  the gross salary to find the NHIF rate
 
+basic_salary = float(input("Enter basic salary: "))
+benefits = float(input("Enter benefits: "))
+
 def salary_cal():
-    basic_salary = float(input("Enter basic salary: "))
-    benefits = float(input("Enter benefits: "))
     gross_salary = basic_salary + benefits
     
-
     # NHIF Rate
     if gross_salary <=5999:
         nhif = "150"
