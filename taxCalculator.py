@@ -72,6 +72,10 @@ taxable_income = get_taxable_income()
 def get_paye():
     if gross_salary < 24000:
         return "Not eligible"
+    else:
+        if gross_salary >= 24000:
+            return gross_salary*0.1
+
 
 
 print("Gross salary is Ksh. ",gross_salary)
